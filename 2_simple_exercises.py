@@ -13,6 +13,8 @@ sampleDict = {
    }
 }
 
+mythoughts = 'Shut up Gibram'
+print(mythoughts)
 
 
 
