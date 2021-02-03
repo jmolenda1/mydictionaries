@@ -13,8 +13,7 @@ sampleDict = {
    }
 }
 
-mythoughts = 'Shut up Gibram'
-print(mythoughts)
+print(sampleDict['class']['student']['marks']['history'])
 
 
 
@@ -22,6 +21,8 @@ print(mythoughts)
 
 dict={"son's name": "Lucas", "son's eyes": "green", "son's height": 32, "son's weight": 25}
 
+
+dict["son's height"] = 34
 
 
 
@@ -34,7 +35,8 @@ sampleDict = {
      'emp3': {'name': 'Brad', 'salary': 6500}
 }
 
-
+sampleDict['emp3']['salary'] = 8500
+print(sampleDict)
 
 
 
@@ -44,4 +46,6 @@ sampleDict = {
 
 dict={"name": "Plato", "country": "Ancient Greece", "born": -427, "teacher": "Socrates", "student": "Aristotle"}
 
+dict.update({"work":["Apology", "Phaedo", "Republic", "Symposium"]})
 
+print(dict)
